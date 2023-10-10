@@ -12,7 +12,7 @@ public class Exemplo4 {
 
             for (String line: nomes){
                 buffer.write(line);
-                buffer.newLine();
+                buffer.newLine() ;
             }
         }catch (IOException e){
             System.out.println(e.getMessage());
